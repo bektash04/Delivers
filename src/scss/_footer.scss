@@ -1,0 +1,95 @@
+.footer {
+    background: url(../img/footer/GGGG.png)center/cover;
+    height: 560px;
+    padding: 99px 0;
+
+    .siderbar {
+        display: flex;
+
+
+        &__logos-img {
+            margin-bottom: 25px;
+        }
+
+        &__title {
+            color: #546285;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.36px;
+
+        }
+
+        &__text {
+            color: #546285;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.36px;
+            margin-bottom: 260px;
+        }
+
+        &__suptext {
+            color: #353448;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+           margin-right: 290px;
+         
+
+            &_blue {
+                color: $blue;
+            }
+        }
+
+    }
+
+    .list {
+        display: block;
+        margin-right: 100px;
+        .list-item{
+            gap: 20px;
+        }
+        
+        
+
+        &__suptitle {
+            color: #08090A;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase; 
+            margin-bottom: 15px;
+           
+        }
+
+        &__time {
+            color: #546285;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+        }
+        &__icon-img{
+            margin-top: 310px;
+            margin-left:10px;
+        }
+    }
+   
+    .lists{
+      margin-right: 80px;
+    }
+   .listc{
+    margin-bottom: 30px;
+    &__item{
+        gap: 10px;
+    }
+   }
+
+
+}
